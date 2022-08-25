@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>FARMOPS ALTISSIMO</title>
+</head>
+
+<body>
+    <div class="box">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img src={{ url_for('static',filename='img/toggle.svg')}}>
+            </label>
+            <ul>
+                <label for="check" class="checkbtn">
+                    <img src={{ url_for('static',filename='img/toggle.svg')}}>
+                </label><br>
+                <li>
+                    <a href="#">Informasi</a>
+                </li>
+                <li><a href="#">Laporan</a></li>
+                <li><a href="#">Akun</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
